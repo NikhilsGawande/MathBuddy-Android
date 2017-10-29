@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/trythis1">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="       1.Nikhil Gawande     : 111408013"
+            android:id="@+id/textView17"
+            android:layout_marginTop="79dp"
+            android:layout_below="@+id/textView18"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_size"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Developed By :"
+            android:id="@+id/textView18"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/abc_text_size_display_1_material" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="       2. Anuja Padmawar  : 111408041"
+            android:id="@+id/textView19"
+            android:layout_marginTop="49dp"
+            android:layout_below="@+id/textView17"
+            android:layout_alignLeft="@+id/textView17"
+            android:layout_alignStart="@+id/textView17"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="       3. Prachi Rode           : 111408050"
+            android:id="@+id/textView20"
+            android:layout_marginTop="46dp"
+            android:layout_below="@+id/textView19"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_size"
+            android:layout_alignLeft="@+id/textView19"
+            android:layout_alignStart="@+id/textView19"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:id="@+id/home_about"
+            android:layout_marginBottom="73dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

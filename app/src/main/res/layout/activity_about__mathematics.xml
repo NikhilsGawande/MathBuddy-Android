@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/whatismaths">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mathematics may be defined as “the study of relationships among quantities, magnitudes and properties, and also of the logical operations by which unknown quantities, magnitudes, and properties may be deduced” (Microsoft Encarta Encyclopedia) or the study of quantity, structure, space and change (Wikipedia).
+
+                                Historically, it was regarded as the science of quantity, whether of magnitudes (as in geometry) or of numbers (as in arithmetic) or of the generalization of these two fields (as in algebra). Some have seen it in terms as simple as a search for patterns.
+
+        During the 19th Century, however, mathematics broadened to encompass mathematical or symbolic logic, and thus came to be regarded increasingly as the science of relations or of drawing necessary conclusions (although some see even this as too restrictive).
+
+        The discipline of mathematics now covers - in addition to the more or less standard fields of number theory, algebra, geometry, analysis (calculus), mathematical logic and set theory, and more applied mathematics such as probability theory and statistics - a bewildering array of specialized areas and fields of study, including group theory, order theory, knot theory, sheaf theory, topology, differential geometry, fractal geometry, graph theory, functional analysis, complex analysis, singularity theory, catastrophe theory, chaos theory, measure theory, model theory, category theory, control theory, game theory, complexity theory and many more."
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:maxLines = "100"
+            android:textColor="#ffffff"
+            android:scrollbars = "vertical"
+            android:textSize="@dimen/abc_action_bar_content_inset_material" />
+    </RelativeLayout>
+
+</LinearLayout>

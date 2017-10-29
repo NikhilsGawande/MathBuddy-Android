@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/play">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:id="@+id/home_play"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="35dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:id="@+id/back_play"
+            android:layout_below="@+id/square"
+            android:layout_toLeftOf="@+id/square"
+            android:layout_toStartOf="@+id/square" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Square"
+            android:id="@+id/square"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/home_play"
+            android:layout_toLeftOf="@+id/division"
+            android:layout_toStartOf="@+id/division"
+            android:layout_marginBottom="41dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Division"
+            android:id="@+id/division"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/addition"
+            android:layout_alignRight="@+id/subtraction"
+            android:layout_alignEnd="@+id/subtraction" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiplication"
+            android:id="@+id/multiplication"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/square"
+            android:layout_toStartOf="@+id/square" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtraction"
+            android:id="@+id/subtraction"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignTop="@+id/addition"
+            android:layout_alignRight="@+id/home_play"
+            android:layout_alignEnd="@+id/home_play" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addition"
+            android:id="@+id/addition"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/multiplication"
+            android:layout_marginBottom="74dp"
+            android:layout_alignLeft="@+id/multiplication"
+            android:layout_alignStart="@+id/multiplication"
+            android:layout_alignRight="@+id/multiplication"
+            android:layout_alignEnd="@+id/multiplication" />
+    </RelativeLayout>
+</LinearLayout>

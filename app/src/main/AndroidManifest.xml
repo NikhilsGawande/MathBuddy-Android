@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.system.mathbuddy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"> <!-- "@string/title_activity_home" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Learn_it"
+            android:label="@string/title_activity_learn_it"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.system.mathbuddy.Home" />
+        </activity>
+        <activity
+            android:name=".Try_this"
+            android:label="@string/title_activity_try_this" />
+        <activity
+            android:name=".Play"
+            android:label="@string/title_activity_play"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Game_is_on"
+            android:label="@string/title_activity_game_is_on"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Over"
+            android:label="@string/title_activity_over"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".What_we_do"
+            android:label="@string/title_activity_what_we_do"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".About_us"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Formulas"
+            android:label="@string/title_activity_formulas"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".High_Score"
+            android:label="@string/title_activity_high__score"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".About_Mathematics"
+            android:label="@string/title_activity_about__mathematics"
+            android:parentActivityName=".Learn_it"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".scroll"
+            android:label="@string/title_activity_scroll"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".modes"
+            android:label="@string/title_activity_modes"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Tricks"
+            android:label="@string/title_activity_tricks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".web_view"
+            android:label="@string/title_activity_web_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

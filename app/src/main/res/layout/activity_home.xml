@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"></FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/whatismaths">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About us"
+            android:id="@+id/aboutus"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="47dp"
+            android:layout_below="@+id/web"
+            android:layout_alignRight="@+id/web"
+            android:layout_alignEnd="@+id/web"
+            android:layout_alignLeft="@+id/web"
+            android:layout_alignStart="@+id/web" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="web view"
+            android:id="@+id/web"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Game"
+            android:id="@+id/tryit"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="33dp"
+            android:layout_above="@+id/web"
+            android:layout_alignLeft="@+id/web"
+            android:layout_alignStart="@+id/web" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/explore_it"
+            android:id="@+id/exploreit"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/tryit"
+            android:layout_marginBottom="33dp"
+            android:layout_alignLeft="@+id/web"
+            android:layout_alignStart="@+id/web"
+            android:layout_alignRight="@+id/tryit"
+            android:layout_alignEnd="@+id/tryit" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:id="@+id/exit"
+            android:layout_below="@+id/aboutus"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
